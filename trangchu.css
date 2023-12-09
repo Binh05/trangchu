@@ -13,7 +13,7 @@
     --box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
 }
 
-@media only screen and (max-width: 768px){
+@media (max-width: 768px){
     .hiden-on-mobile {
         display: none;
     }
@@ -63,6 +63,10 @@
     font-weight: 700;
     transition: all 300ms;
     padding: 8px 15px;
+}
+
+.card {
+    margin-top: 30px;
 }
 
 .btn.btn-outline {
